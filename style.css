@@ -54,3 +54,83 @@ html, body{
     font-weight: 500;
     text-transform: uppercase;
 }
+
+#nav button{
+    font-size: 16px;
+    border: 1px solid gray;
+    padding: 7px 12px;
+    border-radius: 50px;
+}
+
+#btn-2{
+    background-color: orangered;
+    color: white;
+    border: 0;
+}
+
+#main > h1{
+    font-size: 180px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+
+#img-1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img-2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img-3{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+.lower-btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#btn-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 18px;
+}
+
+#btn-right{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 18px;
+}
+
+#btn-right i{
+    margin: 0px 10px;
+    border: 1px solid gainsboro;
+    border-radius: 50%;
+    background-color: wheat;
+    padding: 5px;
+}
+
+#btn-right h5{
+    margin-top: 20px;
+}
